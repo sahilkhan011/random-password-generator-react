@@ -5,7 +5,7 @@ export default function Button({ copyFun, isCopyVal }) {
   return (
     <>
       <button
-        className=" p-2 flex items-center bg-blue-500 text-white"
+        className=" p-2 flex items-center bg-blue-500 text-white rounded-r-lg"
         onClick={() => {
           copyFun();
         }}

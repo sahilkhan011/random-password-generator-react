@@ -4,7 +4,7 @@ export default function Input({ password, passRef }) {
     <>
       <input
         readOnly
-        className="flex-1 p-2 border border-gray-300"
+        className="flex-1 p-2 border border-gray-300 rounded-l-lg"
         value={password}
         ref={passRef}
       />

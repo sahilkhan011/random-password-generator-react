@@ -14,7 +14,7 @@ const App = () => {
 
   const copyPasswordToClipBoard = () => {
     passwordRef.current?.select();
-    //passwordRef.current?.setSelectionRange(0, 2);
+    //passwordRef.current?.setSelectionRange(0, 999);
     //console.log("Copied Content : ", password);
     navigator.clipboard
       .writeText(password)
@@ -54,7 +54,7 @@ const App = () => {
             <div className="mr-4 flex flex-wrap items-center">
               {/* ProgressBar */}
               <Progress
-                setFun={setlength}
+                setFunc={setlength}
                 propmin={5}
                 propmax={20}
                 proplength={length}

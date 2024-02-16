@@ -14,7 +14,7 @@ const App = () => {
 
   const copyPasswordToClipBoard = () => {
     passwordRef.current?.select();
-    passwordRef.current?.setSelectionRange(0, 999);
+    //passwordRef.current?.setSelectionRange(0, 2);
     //console.log("Copied Content : ", password);
     navigator.clipboard
       .writeText(password)
